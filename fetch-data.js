@@ -2,63 +2,54 @@
 import fs from 'fs';
 import path from 'path';
 
-async function fetchPlatformData() {
-  console.log('--- Iniciando Coleta de Dados das APIs ---');
+async function fetchCryptoPrices() {
+  console.log('--- Iniciando Coleta de Preços (CoinGecko) ---');
 
-  // URLs fictícias - substitua pelas chaves e endpoints reais das suas plataformas
-  const endpoints = {
-    plataformaA: 'https://api.exemploA.com/v1/dados',
-    plataformaB: 'https://api.exemploB.com/v1/metricas'
-  };
+  // A sua URL real com todas as moedas selecionadas
+  const url = 'https://api.coingecko.com/api/v3/simple/price?ids=monero,wownero,zcash,dash,firo,oasis-network,secret,pirate-chain,beam,grin,decred&vs_currencies=usd,brl&include_1hr_change=true';
 
   try {
-    // Executa as requisições em paralelo para economizar tempo de execução no GitHub Actions
-    const [resA, resB] = await Promise.all([
-      fetch(endpoints.plataformaA, {
-        headers: { 
-          // O token será injetado pelo GitHub Actions via variáveis de ambiente
-          'Authorization': `Bearer ${process.env.API_KEY_PLATAFORMA_A}`,
-          'Accept': 'application/json'
-        }
-      }).then(res => res.ok ? res.json() : { error: `Falha: Status ${res.status}` }),
-
-      fetch(endpoints.plataformaB, {
-        headers: { 
-          'Authorization': `Bearer ${process.env.API_KEY_PLATAFORMA_B}`,
-          'Accept': 'application/json'
-        }
-      }).then(res => res.ok ? res.json() : { error: `Falha: Status ${res.status}` })
-    ]);
-
-    // Monta o objeto final da sua API customizada
-    const outputData = {
-      assinatura: "API de Cache Estático",
-      ultima_atualizacao: new Date().toISOString(),
-      dados: {
-        plataformaA: resA,
-        plataformaB: resB
+    const response = await fetch(url, {
+      headers: {
+        'Accept': 'application/json',
+        // User-Agent padrão para evitar que barrem a requisição automatizada
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
       }
+    });
+
+    if (!response.ok) {
+      throw new Error(`Falha na API do CoinGecko: Status ${response.status}`);
+    }
+
+    const priceData = await response.json();
+
+    // Monta a estrutura final do seu JSON customizado
+    const outputData = {
+      provedor: "Titan Terminal Data Engine",
+      status: "success",
+      ultima_atualizacao: new Date().toISOString(),
+      mercado: priceData
     };
 
-    // Garante que a pasta public existe antes de gravar
+    // Garante que a pasta public existe no ambiente do GitHub
     const publicDir = path.resolve('./public');
     if (!fs.existsSync(publicDir)) {
       fs.mkdirSync(publicDir, { recursive: true });
     }
 
-    // Salva o JSON formatado com 2 espaços de recuo
+    // Salva o JSON formatado pronto para consumo
     fs.writeFileSync(
       path.join(publicDir, 'data.json'), 
       JSON.stringify(outputData, null, 2), 
       'utf-8'
     );
 
-    console.log('--- JSON gerado com sucesso em ./public/data.json ---');
+    console.log('--- data.json gerado com sucesso com as cotações atuais! ---');
 
   } catch (error) {
-    console.error('Erro crítico durante a execução do script:', error);
-    process.exit(1); // Força o pipeline do GitHub a acusar falha se algo quebrar feio
+    console.error('Erro crítico ao puxar dados do CoinGecko:', error);
+    process.exit(1); // Avisa o GitHub Actions que o processo falhou
   }
 }
 
-fetchPlatformData();
+fetchCryptoPrices();
