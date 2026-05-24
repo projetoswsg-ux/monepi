@@ -5,10 +5,6 @@ on:
     - cron: '0 */3 * * *' # Roda automaticamente a cada 3 horas
   workflow_dispatch: # Permite rodar manualmente clicando no botão
 
-# Força o ambiente do GitHub Actions a usar a engine do Node 24 para as ações nativas
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
-
 jobs:
   coletar-e-commitar:
     runs-on: ubuntu-latest
@@ -20,7 +16,7 @@ jobs:
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22 # Atualizado para a versão estável atual LTS
+          node-version: 20
 
       - name: Executar Script de Coleta
         run: node fetch-data.js
