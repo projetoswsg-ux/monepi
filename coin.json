@@ -1,0 +1,241 @@
+{
+  "provedor": "Titan Terminal Data Engine",
+  "status": "success",
+  "ultima_atualizacao": "2026-05-24T10:15:30.000Z",
+  "ativos": {
+    "monero": {
+      "id": 1,
+      "nome": "Monero",
+      "simbolo": "XMR",
+      "logo": "https://titandata.engine/logos/xmr.png",
+      "descricao": "Criptomoeda descentralizada focada em privacidade total e transações financeiras indetectáveis por padrão.",
+      "privacidade": "CryptoNote (RingCT, Stealth Addresses)",
+      "mercado": {
+        "preco_usd": 158.40,
+        "variacao_24h_pct": 4.8,
+        "tendencia": "up"
+      },
+      "redes_sociais": {
+        "website": "https://getmonero.org",
+        "twitter": "https://x.com/monero"
+      },
+      "corretoras": ["Kraken", "KuCoin", "TradeOgre", "Bisq"]
+    },
+    "wownero": {
+      "id": 2,
+      "nome": "Wownero",
+      "simbolo": "WOW",
+      "logo": "https://titandata.engine/logos/wow.png",
+      "descricao": "Memecoin focada em privacidade, orientada para a comunidade e baseada no protocolo CryptoNote, com suprimento finito e resistência a ASICs.",
+      "privacidade": "CryptoNote (RandomWOW, RingCT)",
+      "mercado": {
+        "preco_usd": 0.0854,
+        "variacao_24h_pct": 12.5,
+        "tendencia": "up"
+      },
+      "redes_sociais": {
+        "website": "https://wownero.org",
+        "twitter": "https://x.com/wownero"
+      },
+      "corretoras": ["TradeOgre", "Nonkyc.io"]
+    },
+    "bytecoin": {
+      "id": 3,
+      "nome": "Bytecoin",
+      "simbolo": "BCN",
+      "logo": "https://titandata.engine/logos/bcn.png",
+      "descricao": "A primeira implementação prática do protocolo de privacidade CryptoNote, lançada em 2012.",
+      "privacidade": "CryptoNote",
+      "mercado": {
+        "preco_usd": 0.000028,
+        "variacao_24h_pct": 0.0,
+        "tendencia": "flat"
+      },
+      "redes_sociais": {
+        "website": "https://bytecoin.org",
+        "twitter": "https://x.com/Bytecoin_BCN"
+      },
+      "corretoras": ["HitBTC", "TradeOgre"]
+    },
+    "ryo-currency": {
+      "id": 4,
+      "nome": "Ryo Currency",
+      "simbolo": "RYO",
+      "logo": "https://titandata.engine/logos/ryo.png",
+      "descricao": "Fork do Monero com foco em segurança aprimorada e alta resistência a mineradores ASIC em nível de GPU.",
+      "privacidade": "CryptoNote (Cryptonight-GPU)",
+      "mercado": {
+        "preco_usd": 0.0145,
+        "variacao_24h_pct": 1.8,
+        "tendencia": "down"
+      },
+      "redes_sociais": {
+        "website": "https://ryo-currency.com",
+        "twitter": "https://x.com/Ryocurrency"
+      },
+      "corretoras": ["TradeOgre"]
+    },
+    "karbo": {
+      "id": 5,
+      "nome": "Karbo",
+      "simbolo": "KRB",
+      "logo": "https://titandata.engine/logos/krb.png",
+      "descricao": "Moeda de privacidade descentralizada baseada em CryptoNote, focada no uso como meio de troca e transações P2P cotidianas.",
+      "privacidade": "CryptoNote",
+      "mercado": {
+        "preco_usd": 0.0380,
+        "variacao_24h_pct": 2.5,
+        "tendencia": "up"
+      },
+      "redes_sociais": {
+        "website": "https://karbo.io",
+        "twitter": "https://x.com/karbocurrency"
+      },
+      "corretoras": ["TradeOgre", "Crex24"]
+    },
+    "zcash": {
+      "id": 6,
+      "nome": "Zcash",
+      "simbolo": "ZEC",
+      "logo": "https://titandata.engine/logos/zec.png",
+      "descricao": "Criptomoeda com foco em privacidade construída sobre a base do Bitcoin, oferecendo transações blindadas opcionais.",
+      "privacidade": "zk-SNARKs (Zero-Knowledge Proofs)",
+      "mercado": {
+        "preco_usd": 24.15,
+        "variacao_24h_pct": 1.4,
+        "tendencia": "up"
+      },
+      "redes_sociais": {
+        "website": "https://z.cash",
+        "twitter": "https://x.com/ElectricCoinCo"
+      },
+      "corretoras": ["Binance", "Coinbase", "Kraken", "OKX"]
+    },
+    "pirate-chain": {
+      "id": 7,
+      "nome": "Pirate Chain",
+      "simbolo": "ARRR",
+      "logo": "https://titandata.engine/logos/arrr.png",
+      "descricao": "Rede focada em anonimato estrito que força o uso de transações blindadas zk-SNARKs por padrão em toda a sua cadeia.",
+      "privacidade": "zk-SNARKs (Apenas Transações Blindadas)",
+      "mercado": {
+        "preco_usd": 0.1840,
+        "variacao_24h_pct": 32.4,
+        "tendencia": "up"
+      },
+      "redes_sociais": {
+        "website": "https://pirate.black",
+        "twitter": "https://x.com/PirateChain"
+      },
+      "corretoras": ["TradeOgre", "Gate.io", "CoinEx"]
+    },
+    "zclassic": {
+      "id": 8,
+      "nome": "Zclassic",
+      "simbolo": "ZCL",
+      "logo": "https://titandata.engine/logos/zcl.png",
+      "descricao": "Um fork do Zcash que removeu a recompensa dos fundadores (Founder's Reward) para criar um modelo de emissão totalmente focado em mineradores.",
+      "privacidade": "zk-SNARKs",
+      "mercado": {
+        "preco_usd": 0.0620,
+        "variacao_24h_pct": 5.4,
+        "tendencia": "down"
+      },
+      "redes_sociais": {
+        "website": "https://zclassic.org",
+        "twitter": "https://x.com/ZclassicCoin"
+      },
+      "corretoras": ["Bittrex", "TradeOgre"]
+    },
+    "ycash": {
+      "id": 9,
+      "nome": "Ycash",
+      "simbolo": "YEC",
+      "logo": "https://titandata.engine/logos/yec.png",
+      "descricao": "O primeiro fork amigável da blockchain do Zcash, reduzindo a recompensa de fundadores e promovendo mineração por commodities (CPUs/GPUs).",
+      "privacidade": "zk-SNARKs",
+      "mercado": {
+        "preco_usd": 0.0240,
+        "variacao_24h_pct": 0.8,
+        "tendencia": "up"
+      },
+      "redes_sociais": {
+        "website": "https://ycash.xyz",
+        "twitter": "https://x.com/YcashFoundation"
+      },
+      "corretoras": ["SouthXchange", "TradeOgre"]
+    },
+    "grin": {
+      "id": 10,
+      "nome": "Grin",
+      "simbolo": "GRIN",
+      "logo": "https://titandata.engine/logos/grin.png",
+      "descricao": "Uma implementação minimalista do protocolo MimbleWimble focada em escalabilidade extrema e privacidade estrutural sem endereços visíveis.",
+      "privacidade": "MimbleWimble",
+      "mercado": {
+        "preco_usd": 0.1180,
+        "variacao_24h_pct": 8.1,
+        "tendencia": "up"
+      },
+      "redes_sociais": {
+        "website": "https://grin.mw",
+        "twitter": "https://x.com/grincouncil"
+      },
+      "corretoras": ["Gate.io", "TradeOgre", "CoinEx"]
+    },
+    "mimblewimblecoin": {
+      "id": 11,
+      "nome": "MimbleWimbleCoin",
+      "simbolo": "MWC",
+      "logo": "https://titandata.engine/logos/mwc.png",
+      "descricao": "Criptomoeda focada em escassez e privacidade baseada no protocolo MimbleWimble, otimizada para ser uma reserva de valor anônima.",
+      "privacidade": "MimbleWimble",
+      "mercado": {
+        "preco_usd": 1.05,
+        "variacao_24h_pct": 15.2,
+        "tendencia": "up"
+      },
+      "redes_sociais": {
+        "website": "https://mwc.mw",
+        "twitter": "https://x.com/MWMimbleWimble"
+      },
+      "corretoras": ["BitForex", "TradeOgre"]
+    },
+    "epic-cash": {
+      "id": 12,
+      "nome": "Epic Cash",
+      "simbolo": "EPIC",
+      "logo": "https://titandata.engine/logos/epic.png",
+      "descricao": "Sistema monetário descentralizado baseado em MimbleWimble que combina a economia do Bitcoin com a resistência a censura e privacidade nativa.",
+      "privacidade": "MimbleWimble",
+      "mercado": {
+        "preco_usd": 0.2850,
+        "variacao_24h_pct": 5.7,
+        "tendencia": "up"
+      },
+      "redes_sociais": {
+        "website": "https://epic.tech",
+        "twitter": "https://x.com/EpicCash"
+      },
+      "corretoras": ["Vitex", "TradeOgre", "TxBit"]
+    },
+    "firo": {
+      "id": 13,
+      "nome": "Firo",
+      "simbolo": "FIRO",
+      "logo": "https://titandata.engine/logos/firo.png",
+      "descricao": "Moeda digital pioneira no uso de criptografia baseada em provas de conhecimento zero avançadas para quebrar a rastreabilidade do histórico de moedas.",
+      "privacidade": "Lelantus / Lelantus Spark",
+      "mercado": {
+        "preco_usd": 0.00,
+        "variacao_24h_pct": 0.0,
+        "tendencia": "flat"
+      },
+      "redes_sociais": {
+        "website": "https://firo.org",
+        "twitter": "https://x.com/firoorg"
+      },
+      "corretoras": ["Binance", "Gate.io", "MEXC", "Bittrex"]
+    }
+  }
+}
