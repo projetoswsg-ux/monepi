@@ -6,7 +6,7 @@ async function fetchCryptoPrices() {
   console.log('--- Iniciando Coleta de Preços (CoinGecko) ---');
 
   // A sua URL real com todas as moedas selecionadas
-  const url = 'https://api.coingecko.com/api/v3/simple/price?ids=monero,wownero,zcash,dash,firo,oasis-network,secret,pirate-chain,beam,grin,decred&vs_currencies=usd,brl&include_1hr_change=true';
+  const url = 'https://api.coingecko.com/api/v3/simple/price?ids=monero,bytecoin,ryo-currency,karbo,zclassic,ycash,epic-cash,zcash,dash,firo,oasis-network,secret,pirate-chain,beam,grin,decred&vs_currencies=usd,brl&include_1hr_change=true';
 
   try {
     const response = await fetch(url, {
