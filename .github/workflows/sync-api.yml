@@ -24,16 +24,16 @@ jobs:
       - name: Executar Script de Coleta
         run: node fetch-data.js
 
-      name: Commitar alterações do JSON
-      run: |
-        git config --global user.name "GitHub Actions Bot"
-        git config --global user.email "actions@github.com"
-        
-        mkdir -p public
-        git add public/data.json
-        
-        # Se houver mudanças, faz o commit e força a gravação na main
-        git diff-index --quiet HEAD || {
-          git commit -m "chore: cotações atualizadas [skip ci]"
-          git push origin main --force
-        }
+      - name: Commitar alterações do JSON
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          
+          mkdir -p public
+          git add public/data.json
+          
+          # Se houver mudanças, faz o commit e força a gravação na main
+          git diff-index --quiet HEAD || {
+            git commit -m "chore: cotações atualizadas [skip ci]"
+            git push origin main --force
+          }
