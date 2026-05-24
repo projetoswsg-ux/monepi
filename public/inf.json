@@ -7,7 +7,7 @@
       "id": 1,
       "nome": "Monero",
       "simbolo": "XMR",
-      "logo": "https://titandata.engine/logos/xmr.png",
+      "logo": "https://cdn.jsdelivr.net/gh/projetoswsg-ux/center@main/logo/monero_logo-convertido-de-png.webp",
       "descricao": "Criptomoeda descentralizada focada em privacidade total e transações financeiras indetectáveis por padrão.",
       "privacidade": "CryptoNote (RingCT, Stealth Addresses)",
       "mercado": {
@@ -25,7 +25,7 @@
       "id": 2,
       "nome": "Wownero",
       "simbolo": "WOW",
-      "logo": "https://titandata.engine/logos/wow.png",
+      "logo": "https://cdn.jsdelivr.net/gh/projetoswsg-ux/center@main/logo/download-convertido-de-svg.webp",
       "descricao": "Memecoin focada em privacidade, orientada para a comunidade e baseada no protocolo CryptoNote, com suprimento finito e resistência a ASICs.",
       "privacidade": "CryptoNote (RandomWOW, RingCT)",
       "mercado": {
@@ -43,7 +43,7 @@
       "id": 3,
       "nome": "Bytecoin",
       "simbolo": "BCN",
-      "logo": "https://titandata.engine/logos/bcn.png",
+      "logo": "https://cdn.jsdelivr.net/gh/projetoswsg-ux/center@main/logo/bytecoin-logo-convertido-de-png.webp",
       "descricao": "A primeira implementação prática do protocolo de privacidade CryptoNote, lançada em 2012.",
       "privacidade": "CryptoNote",
       "mercado": {
@@ -61,7 +61,7 @@
       "id": 4,
       "nome": "Ryo Currency",
       "simbolo": "RYO",
-      "logo": "https://titandata.engine/logos/ryo.png",
+      "logo": "https://cdn.jsdelivr.net/gh/projetoswsg-ux/center@main/logo/download%20(1)-convertido-de-svg.webp",
       "descricao": "Fork do Monero com foco em segurança aprimorada e alta resistência a mineradores ASIC em nível de GPU.",
       "privacidade": "CryptoNote (Cryptonight-GPU)",
       "mercado": {
@@ -79,7 +79,7 @@
       "id": 5,
       "nome": "Karbo",
       "simbolo": "KRB",
-      "logo": "https://titandata.engine/logos/krb.png",
+      "logo": "https://cdn.jsdelivr.net/gh/projetoswsg-ux/center@main/logo/karbo_coin-convertido-de-png.webp",
       "descricao": "Moeda de privacidade descentralizada baseada em CryptoNote, focada no uso como meio de troca e transações P2P cotidianas.",
       "privacidade": "CryptoNote",
       "mercado": {
@@ -97,7 +97,7 @@
       "id": 6,
       "nome": "Zcash",
       "simbolo": "ZEC",
-      "logo": "https://titandata.engine/logos/zec.png",
+      "logo": "https://cdn.jsdelivr.net/gh/projetoswsg-ux/center@main/logo/circle-zcash-color-convertido-de-png.webp",
       "descricao": "Criptomoeda com foco em privacidade construída sobre a base do Bitcoin, oferecendo transações blindadas opcionais.",
       "privacidade": "zk-SNARKs (Zero-Knowledge Proofs)",
       "mercado": {
@@ -115,7 +115,7 @@
       "id": 7,
       "nome": "Pirate Chain",
       "simbolo": "ARRR",
-      "logo": "https://titandata.engine/logos/arrr.png",
+      "logo": "https://cdn.jsdelivr.net/gh/projetoswsg-ux/center@main/logo/Pirate_Chain-convertido-de-png.webp",
       "descricao": "Rede focada em anonimato estrito que força o uso de transações blindadas zk-SNARKs por padrão em toda a sua cadeia.",
       "privacidade": "zk-SNARKs (Apenas Transações Blindadas)",
       "mercado": {
@@ -133,7 +133,7 @@
       "id": 8,
       "nome": "Zclassic",
       "simbolo": "ZCL",
-      "logo": "https://titandata.engine/logos/zcl.png",
+      "logo": "https://cdn.jsdelivr.net/gh/projetoswsg-ux/center@main/logo/zclassic-convertido-de-png.webp",
       "descricao": "Um fork do Zcash que removeu a recompensa dos fundadores (Founder's Reward) para criar um modelo de emissão totalmente focado em mineradores.",
       "privacidade": "zk-SNARKs",
       "mercado": {
@@ -151,7 +151,7 @@
       "id": 9,
       "nome": "Ycash",
       "simbolo": "YEC",
-      "logo": "https://titandata.engine/logos/yec.png",
+      "logo": "https://cdn.jsdelivr.net/gh/projetoswsg-ux/center@main/logo/ycash_white_orange_200x200-convertido-de-png.webp",
       "descricao": "O primeiro fork amigável da blockchain do Zcash, reduzindo a recompensa de fundadores e promovendo mineração por commodities (CPUs/GPUs).",
       "privacidade": "zk-SNARKs",
       "mercado": {
@@ -187,7 +187,7 @@
       "id": 11,
       "nome": "MimbleWimbleCoin",
       "simbolo": "MWC",
-      "logo": "https://titandata.engine/logos/mwc.png",
+      "logo": "https://cdn.jsdelivr.net/gh/projetoswsg-ux/center@main/logo/E5zZUXza_400x400-convertido-de-jpg.webp",
       "descricao": "Criptomoeda focada em escassez e privacidade baseada no protocolo MimbleWimble, otimizada para ser uma reserva de valor anônima.",
       "privacidade": "MimbleWimble",
       "mercado": {
@@ -223,7 +223,7 @@
       "id": 13,
       "nome": "Firo",
       "simbolo": "FIRO",
-      "logo": "https://titandata.engine/logos/firo.png",
+      "logo": "https://cdn.jsdelivr.net/gh/projetoswsg-ux/center@main/logo/firocoingecko-convertido-de-png.webp",
       "descricao": "Moeda digital pioneira no uso de criptografia baseada em provas de conhecimento zero avançadas para quebrar a rastreabilidade do histórico de moedas.",
       "privacidade": "Lelantus / Lelantus Spark",
       "mercado": {
