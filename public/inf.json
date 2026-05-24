@@ -169,7 +169,7 @@
       "id": 10,
       "nome": "Grin",
       "simbolo": "GRIN",
-      "logo": "https://titandata.engine/logos/grin.png",
+      "logo": "https://cdn.jsdelivr.net/gh/projetoswsg-ux/center@main/logo/grin-convertido-de-png.webp",
       "descricao": "Uma implementação minimalista do protocolo MimbleWimble focada em escalabilidade extrema e privacidade estrutural sem endereços visíveis.",
       "privacidade": "MimbleWimble",
       "mercado": {
