@@ -2,8 +2,8 @@ name: Sincronizador Automatizado de APIs
 
 on:
   schedule:
-    - cron: '0 */3 * * *' # Roda a cada 3 horas automaticamente
-  workflow_dispatch: # Permite que você clique em um botão para rodar na hora que quiser
+    - cron: '0 */3 * * *' # Roda automaticamente a cada 3 horas
+  workflow_dispatch: # Permite rodar manualmente clicando no botão
 
 jobs:
   coletar-e-commitar:
@@ -20,18 +20,14 @@ jobs:
 
       - name: Executar Script de Coleta
         run: node fetch-data.js
-        env:
-          API_KEY_PLATAFORMA_A: ${{ secrets.API_KEY_PLATAFORMA_A }}
-          API_KEY_PLATAFORMA_B: ${{ secrets.API_KEY_PLATAFORMA_B }}
 
       - name: Commitar alterações do JSON
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
           
-          # Garante que a pasta public exista antes de tentar adicionar o arquivo ao Git
           mkdir -p public
           git add public/data.json
           
-          git diff-index --quiet HEAD || git commit -m "chore: atualizando dados das APIs [skip ci]"
+          git diff-index --quiet HEAD || git commit -m "chore: cotações atualizadas [skip ci]"
           git push
