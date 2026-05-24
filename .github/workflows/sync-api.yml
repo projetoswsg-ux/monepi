@@ -5,9 +5,6 @@ on:
     - cron: '0 */3 * * *' # Roda automaticamente a cada 3 horas
   workflow_dispatch: # Permite rodar manualmente clicando no botão
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
-
 jobs:
   coletar-e-commitar:
     runs-on: ubuntu-latest
@@ -19,7 +16,7 @@ jobs:
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 20
 
       - name: Executar Script de Coleta
         run: node fetch-data.js
@@ -32,8 +29,5 @@ jobs:
           mkdir -p public
           git add public/data.json
           
-          # Se houver mudanças, faz o commit e força a gravação na main
-          git diff-index --quiet HEAD || {
-            git commit -m "chore: cotações atualizadas [skip ci]"
-            git push origin main --force
-          }
+          git diff-index --quiet HEAD || git commit -m "chore: cotações atualizadas [skip ci]"
+          git push
