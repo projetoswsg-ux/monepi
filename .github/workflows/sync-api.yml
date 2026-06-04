@@ -2,7 +2,7 @@ name: Sincronizador Automatizado de APIs
 
 on:
   schedule:
-    - cron: '0 */3 * * *' # Roda automaticamente a cada 3 horas
+    - cron: '*/15 * * * *' # Roda automaticamente a cada 3 horas
   workflow_dispatch: # Permite rodar manualmente clicando no botão
 
 jobs:
