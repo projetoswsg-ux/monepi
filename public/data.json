@@ -1,63 +1,63 @@
 {
   "provedor": "Titan Terminal Data Engine",
   "status": "success",
-  "ultima_atualizacao": "2026-07-24T18:48:35.858Z",
+  "ultima_atualizacao": "2026-07-24T20:23:57.370Z",
   "mercado": {
+    "karbo": {
+      "usd": 0.02258565,
+      "brl": 0.115106
+    },
+    "oasis-network": {
+      "usd": 0.00527519,
+      "brl": 0.02688446
+    },
+    "monero": {
+      "usd": 364.97,
+      "brl": 1860.05
+    },
+    "grin": {
+      "usd": 0.0139979,
+      "brl": 0.071339
+    },
     "beam": {
-      "usd": 0.0082551,
-      "brl": 0.04202258
+      "usd": 0.00813249,
+      "brl": 0.04144643
     },
     "bytecoin": {
-      "usd": 0.00001026,
-      "brl": 0.00005222
+      "usd": 0.00144421,
+      "brl": 0.00736028
+    },
+    "zcash": {
+      "usd": 495.24,
+      "brl": 2523.92
+    },
+    "ycash": {
+      "usd": 0.143861,
+      "brl": 0.733174
+    },
+    "decred": {
+      "usd": 11.59,
+      "brl": 59.09
+    },
+    "secret": {
+      "usd": 0.03866061,
+      "brl": 0.19703
+    },
+    "pirate-chain": {
+      "usd": 0.211642,
+      "brl": 1.079
     },
     "dash": {
       "usd": 32.31,
-      "brl": 164.48
-    },
-    "decred": {
-      "usd": 11.6,
-      "brl": 59.04
-    },
-    "epic-cash": {
-      "usd": 0.269709,
-      "brl": 1.37
-    },
-    "grin": {
-      "usd": 0.01399619,
-      "brl": 0.071248
-    },
-    "karbo": {
-      "usd": 0.02256564,
-      "brl": 0.11476
-    },
-    "monero": {
-      "usd": 364.57,
-      "brl": 1855.83
-    },
-    "oasis-network": {
-      "usd": 0.00526393,
-      "brl": 0.02679602
-    },
-    "pirate-chain": {
-      "usd": 0.213744,
-      "brl": 1.088
-    },
-    "secret": {
-      "usd": 0.03894803,
-      "brl": 0.198265
-    },
-    "ycash": {
-      "usd": 0.12874,
-      "brl": 0.655349
-    },
-    "zcash": {
-      "usd": 494.67,
-      "brl": 2518.13
+      "brl": 164.65
     },
     "zclassic": {
-      "usd": 0.165837,
-      "brl": 0.844092
+      "usd": 0.157364,
+      "brl": 0.80199
+    },
+    "epic-cash": {
+      "usd": 0.268374,
+      "brl": 1.37
     }
   }
 }
