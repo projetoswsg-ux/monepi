@@ -1,63 +1,63 @@
 {
   "provedor": "Titan Terminal Data Engine",
   "status": "success",
-  "ultima_atualizacao": "2026-07-25T17:04:41.030Z",
+  "ultima_atualizacao": "2026-07-25T18:08:49.359Z",
   "mercado": {
-    "karbo": {
-      "usd": 0.02258565,
-      "brl": 0.114993
-    },
-    "oasis-network": {
-      "usd": 0.00530488,
-      "brl": 0.02700928
-    },
-    "monero": {
-      "usd": 363.77,
-      "brl": 1852.1
-    },
-    "grin": {
-      "usd": 0.01448877,
-      "brl": 0.073768
-    },
     "beam": {
-      "usd": 0.00823215,
-      "brl": 0.04191314
+      "usd": 0.00823766,
+      "brl": 0.04194123
     },
     "bytecoin": {
-      "usd": 0.00144421,
-      "brl": 0.00735306
-    },
-    "zcash": {
-      "usd": 479.9,
-      "brl": 2443.38
-    },
-    "ycash": {
-      "usd": 0.116049,
-      "brl": 0.590852
-    },
-    "decred": {
-      "usd": 11.68,
-      "brl": 59.48
-    },
-    "secret": {
-      "usd": 0.03842385,
-      "brl": 0.195631
-    },
-    "pirate-chain": {
-      "usd": 0.223639,
-      "brl": 1.14
+      "usd": 0.00000964,
+      "brl": 0.00004907
     },
     "dash": {
-      "usd": 32.31,
-      "brl": 164.49
+      "usd": 32.45,
+      "brl": 165.24
     },
-    "zclassic": {
-      "usd": 0.144396,
-      "brl": 0.735177
+    "decred": {
+      "usd": 11.67,
+      "brl": 59.39
     },
     "epic-cash": {
-      "usd": 0.25511,
-      "brl": 1.3
+      "usd": 0.257529,
+      "brl": 1.31
+    },
+    "grin": {
+      "usd": 0.01448534,
+      "brl": 0.073751
+    },
+    "karbo": {
+      "usd": 0.02256564,
+      "brl": 0.11476
+    },
+    "monero": {
+      "usd": 364.49,
+      "brl": 1855.76
+    },
+    "oasis-network": {
+      "usd": 0.00530328,
+      "brl": 0.02700111
+    },
+    "pirate-chain": {
+      "usd": 0.222979,
+      "brl": 1.14
+    },
+    "secret": {
+      "usd": 0.03849879,
+      "brl": 0.196013
+    },
+    "ycash": {
+      "usd": 0.118218,
+      "brl": 0.601894
+    },
+    "zcash": {
+      "usd": 485.09,
+      "brl": 2469.79
+    },
+    "zclassic": {
+      "usd": 0.144203,
+      "brl": 0.734197
     }
   }
 }
