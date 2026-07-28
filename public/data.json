@@ -1,63 +1,63 @@
 {
   "provedor": "Titan Terminal Data Engine",
   "status": "success",
-  "ultima_atualizacao": "2026-07-28T15:37:15.097Z",
+  "ultima_atualizacao": "2026-07-28T17:10:49.199Z",
   "mercado": {
-    "karbo": {
-      "usd": 0.02236869,
-      "brl": 0.114742
-    },
-    "oasis-network": {
-      "usd": 0.00521317,
-      "brl": 0.02674146
-    },
-    "monero": {
-      "usd": 335.26,
-      "brl": 1719.77
-    },
-    "grin": {
-      "usd": 0.01153984,
-      "brl": 0.059195
-    },
     "beam": {
-      "usd": 0.00824907,
-      "brl": 0.04231442
+      "usd": 0.00825233,
+      "brl": 0.04231969
     },
     "bytecoin": {
-      "usd": 0.00144421,
-      "brl": 0.00740823
+      "usd": 0.00002997,
+      "brl": 0.00015241
     },
-    "zcash": {
-      "usd": 472.48,
-      "brl": 2423.61
-    },
-    "ycash": {
-      "usd": 0.106169,
-      "brl": 0.544606
+    "dash": {
+      "usd": 31.64,
+      "brl": 162.28
     },
     "decred": {
       "usd": 11.38,
-      "brl": 58.35
-    },
-    "secret": {
-      "usd": 0.03425543,
-      "brl": 0.175717
-    },
-    "pirate-chain": {
-      "usd": 0.210755,
-      "brl": 1.081
-    },
-    "dash": {
-      "usd": 31.56,
-      "brl": 161.91
-    },
-    "zclassic": {
-      "usd": 0.154064,
-      "brl": 0.790288
+      "brl": 58.36
     },
     "epic-cash": {
-      "usd": 0.226713,
+      "usd": 0.22705,
       "brl": 1.16
+    },
+    "grin": {
+      "usd": 0.0115179,
+      "brl": 0.059066
+    },
+    "karbo": {
+      "usd": 0.02230688,
+      "brl": 0.113573
+    },
+    "monero": {
+      "usd": 336.9,
+      "brl": 1727.89
+    },
+    "oasis-network": {
+      "usd": 0.00517941,
+      "brl": 0.02656414
+    },
+    "pirate-chain": {
+      "usd": 0.211076,
+      "brl": 1.083
+    },
+    "secret": {
+      "usd": 0.03335599,
+      "brl": 0.171076
+    },
+    "ycash": {
+      "usd": 0.105614,
+      "brl": 0.541612
+    },
+    "zcash": {
+      "usd": 473.09,
+      "brl": 2426.4
+    },
+    "zclassic": {
+      "usd": 0.154436,
+      "brl": 0.791979
     }
   }
 }
