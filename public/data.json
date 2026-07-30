@@ -1,63 +1,63 @@
 {
   "provedor": "Titan Terminal Data Engine",
   "status": "success",
-  "ultima_atualizacao": "2026-07-30T09:59:34.004Z",
+  "ultima_atualizacao": "2026-07-30T11:59:36.814Z",
   "mercado": {
-    "beam": {
-      "usd": 0.00759151,
-      "brl": 0.03885868
-    },
-    "bytecoin": {
-      "usd": 0.00002327,
-      "brl": 0.00011909
-    },
-    "dash": {
-      "usd": 30.11,
-      "brl": 154.13
-    },
-    "decred": {
-      "usd": 12.11,
-      "brl": 61.99
-    },
-    "epic-cash": {
-      "usd": 0.212786,
-      "brl": 1.089
-    },
-    "grin": {
-      "usd": 0.01214259,
-      "brl": 0.062154
-    },
     "karbo": {
-      "usd": 0.02231114,
-      "brl": 0.114231
-    },
-    "monero": {
-      "usd": 356.95,
-      "brl": 1827.1
+      "usd": 0.022434,
+      "brl": 0.114846
     },
     "oasis-network": {
-      "usd": 0.00522375,
-      "brl": 0.02673882
+      "usd": 0.00520701,
+      "brl": 0.02665624
     },
-    "pirate-chain": {
-      "usd": 0.207932,
-      "brl": 1.064
+    "monero": {
+      "usd": 359.58,
+      "brl": 1840.79
     },
-    "secret": {
-      "usd": 0.03133175,
-      "brl": 0.160378
+    "grin": {
+      "usd": 0.01214777,
+      "brl": 0.062188
     },
-    "ycash": {
-      "usd": 0.10337,
-      "brl": 0.529121
+    "beam": {
+      "usd": 0.00791328,
+      "brl": 0.04051045
+    },
+    "bytecoin": {
+      "usd": 0.00144421,
+      "brl": 0.00739335
     },
     "zcash": {
-      "usd": 475.67,
-      "brl": 2434.81
+      "usd": 476.05,
+      "brl": 2437.03
+    },
+    "ycash": {
+      "usd": 0.10183,
+      "brl": 0.521299
+    },
+    "decred": {
+      "usd": 12.28,
+      "brl": 62.85
+    },
+    "secret": {
+      "usd": 0.03157338,
+      "brl": 0.161634
+    },
+    "pirate-chain": {
+      "usd": 0.209355,
+      "brl": 1.072
+    },
+    "dash": {
+      "usd": 30.33,
+      "brl": 155.29
     },
     "zclassic": {
-      "usd": 0.144892,
-      "brl": 0.741661
+      "usd": 0.144954,
+      "brl": 0.742063
+    },
+    "epic-cash": {
+      "usd": 0.212837,
+      "brl": 1.09
     }
   }
 }
