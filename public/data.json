@@ -1,11 +1,11 @@
 {
   "provedor": "Titan Terminal Data Engine",
   "status": "success",
-  "ultima_atualizacao": "2026-08-23T08:49:46.914Z",
+  "ultima_atualizacao": "2026-08-23T09:32:09.896Z",
   "mercado": {
     "monero": {
-      "usd": 433.1,
-      "brl": 2225.91
+      "brl": 2249.56,
+      "usd": 437.7
     },
     "bytecoin": {
       "usd": 0.00002799,
@@ -16,48 +16,48 @@
       "brl": 0.096546
     },
     "zclassic": {
-      "usd": 0.214582,
-      "brl": 1.1
-    },
-    "ycash": {
-      "usd": 0.210296,
-      "brl": 1.081
-    },
-    "epic-cash": {
-      "usd": 0.19995,
-      "brl": 1.028
-    },
-    "zcash": {
-      "usd": 807.71,
-      "brl": 4151.25
-    },
-    "dash": {
-      "usd": 40.3,
-      "brl": 207.1
-    },
-    "oasis-network": {
-      "usd": 0.0060479,
-      "brl": 0.03108318
-    },
-    "secret": {
-      "usd": 0.01635973,
-      "brl": 0.084081
-    },
-    "pirate-chain": {
-      "usd": 0.213782,
+      "usd": 0.213783,
       "brl": 1.099
     },
+    "ycash": {
+      "usd": 0.208448,
+      "brl": 1.071
+    },
+    "epic-cash": {
+      "usd": 0.200947,
+      "brl": 1.033
+    },
+    "zcash": {
+      "usd": 808.72,
+      "brl": 4156.4
+    },
+    "dash": {
+      "usd": 39.96,
+      "brl": 205.39
+    },
+    "oasis-network": {
+      "usd": 0.00602857,
+      "brl": 0.03098384
+    },
+    "secret": {
+      "usd": 0.01618386,
+      "brl": 0.083177
+    },
+    "pirate-chain": {
+      "usd": 0.214076,
+      "brl": 1.1
+    },
     "beam": {
-      "usd": 0.00749088,
-      "brl": 0.03849936
+      "usd": 0.00746685,
+      "brl": 0.03837589
     },
     "grin": {
-      "usd": 0.01402879,
-      "brl": 0.072101
+      "usd": 0.0140289,
+      "brl": 0.072102
     },
     "decred": {
-      "usd": 13.71,
-      "brl": 70.47
+      "usd": 13.68,
+      "brl": 70.33
     }
   }
 }
